@@ -1,6 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import TitlePage from '../TitlePage/TitlePage';
+import SummaryPage from '../SummaryPage/SummaryPage';
+import ProjectPage from '../ProjectPage/ProjectPage';
+import SkillsPage from '../SkillsPage/SkillsPage';
+import ExperiencePage from '../ExperiencePage/ExperiencePage';
 import NavBar from '../../components/NavBar';
 
 export default function App() {
@@ -8,12 +12,11 @@ export default function App() {
     <div className="App">
       <body className='App-body'>
         <Routes>
-          <Route path="/" element={<TitlePage />} />
-          {/* <Route path="/about" element={<TitlePage />} />
+          <Route path="/*" element={<TitlePage />} />
           <Route path="/summary" element={<SummaryPage />} />
           <Route path="/projects" element={<ProjectPage />} />
           <Route path="/skills" element={<SkillsPage />} />
-          <Route path="/experience" element={<ExperiencePage />} /> */}
+          <Route path="/experience" element={<ExperiencePage />} />
         </Routes>
       </body>
       <NavBar />
