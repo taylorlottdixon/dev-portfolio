@@ -1,0 +1,35 @@
+.contact-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.contact-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+
+.gmail {
+    background-color: #EA4335;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.linkedin {
+    background-color: #0A66C2;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.github {
+    background-color: #181717;
+    padding: .5rem;
+    border-radius: 1rem;
+}

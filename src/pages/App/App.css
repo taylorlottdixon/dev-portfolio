@@ -9,6 +9,8 @@
   font-weight: 500;
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .App-body {
@@ -23,8 +25,8 @@
   right: 0px;
   top: 0px;
   margin-left: auto;
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: transparent;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: right;
