@@ -13,6 +13,7 @@ export default function SummaryPage() {
         >
             <h1>About Me</h1>
             <p className='aboutme-text'>I am an end-user oriented software engineer with a natural knack for design. Through my background in administrative management, I bring a proven track record of game-changing process improvement. My love of problem-solving fuels me to create intuitive programs that allow the user to customize their experience to fit their unique needs.</p>
+            <img className='portrait' src='portrait.jpg' alt='Taylor Dixon Portrait' />
         </motion.div>
     )
 }

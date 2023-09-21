@@ -1,0 +1,18 @@
+.skill-badges {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.skills-page {
+    justify-content: center;
+}
+
+.studying {
+    margin: 4rem auto;
+    font-size: 3.5rem;
+}

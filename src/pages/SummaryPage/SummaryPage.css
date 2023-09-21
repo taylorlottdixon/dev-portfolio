@@ -5,4 +5,12 @@
     margin: 0 auto;
     color: white;
     font-size: 2rem;
+    font-weight: 400;
+}
+
+.portrait {
+    width: 15rem;
+    margin-top: 4rem;
+    border-radius: 50%;
+    border: .5rem solid #866496;
 }
