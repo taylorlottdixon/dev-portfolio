@@ -5,12 +5,12 @@ import NavBar from '../../components/NavBar';
 import NavBarMobile from '../../components/NavBarMobile';
 
 export default function App() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
-  const [isMobile, setMobile] = useState(window.innerWidth > 640);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 1024);
+  const [isMobile, setMobile] = useState(window.innerWidth < 1024);
 
   const updateMedia = () => {
     setDesktop(window.innerWidth > 1024);
-    setMobile(window.innerWidth > 640);
+    setMobile(window.innerWidth < 1024);
   };
 
   useEffect(() => {
