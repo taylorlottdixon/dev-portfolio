@@ -1,0 +1,52 @@
+/*==========================
+Sidebar navigation
+========================*/
+.Mobile-nav {
+    position: relative;
+  }
+  button {
+    cursor: pointer;
+    background: transparent;;
+    border: none;
+    font-size: 20px;
+  }
+  .Mobile-nav .toggle {
+    position: fixed;
+    right: 15px;
+    top: 5px;
+    margin-left: auto;
+    cursor: pointer;
+    background: transparent;;
+    border: none;
+  }
+  .menu-nav {
+    list-style: none;
+    position: fixed;
+    background: rgba(40, 44, 52, .5);
+    right: 0;
+    top: 15px;
+    width: 0;
+    overflow: hidden;
+    max-width: 290px;
+    font-size: 18px;
+    transform: translateX(100px);
+    transition: transform ease-in-out 0.2s;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: right;
+    margin-right: 2rem;
+    /* transition: width ease 0.2s; */
+  }
+  .menu-nav.show-menu {
+    width: fit-content;
+    transform: translateX(0px);
+  }
+  .menu-nav li a, .menu-nav li span {
+    display: block;
+    padding: 1px;
+  }
