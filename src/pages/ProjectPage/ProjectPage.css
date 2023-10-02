@@ -1,6 +1,14 @@
 .project-tile {
+    background-color: #866496;
+    padding: 1rem;
+    width: min-content;
+    border-radius: 1rem;
+    color: #282c34;
+}
+
+.project-img {
     width: 20rem;
-    border: .5rem solid #866496;
+    border: .5rem solid rgb(40, 44, 52);
     border-radius: 1rem;
 }
 
@@ -13,7 +21,18 @@
     width: 100%;
 }
 
-.project-tile:hover {
-    border: .5rem solid rgba(255, 255, 255, 0.8);
+.project-img:hover {
+    border: .5rem solid rgba(40, 44, 52, 0.5);
     transition: .5s;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.project-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
