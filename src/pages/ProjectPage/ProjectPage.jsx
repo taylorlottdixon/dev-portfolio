@@ -26,7 +26,7 @@ export default function ProjectPage() {
                         <img src='https://img.shields.io/badge/CSS3-white?logo=css3&logoColor=white&color=%231572B6' alt='CSS3' />
                     </div>
                 </a>
-                <a className='project-tile' href='https://intense-hollows-35200-9cd88094a7e4.herokuapp.com/' target="_blank" rel="noreferrer">
+                <a className='project-tile' href='https://adventure-journal-a5b6bff19da9.herokuapp.com/' target="_blank" rel="noreferrer">
                     <h3>Adventure Journal</h3>
                     <img className='project-img' src='adventurejournal.png' alt='Adventure Journal' />
                     <p>a database for Game Masters of TTRPGs to keep notes in a cohesive library</p>
